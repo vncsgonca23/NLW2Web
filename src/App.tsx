@@ -1,7 +1,7 @@
 import React from 'react';
 import './assets/styles/global.css'
 import { Routes } from './routes';
-function App() {
+const App:React.FC=() => {
   return (
     <Routes/>
   );
